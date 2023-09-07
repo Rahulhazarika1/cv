@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 210mm; /* Set width to A4 paper width */
+    height: 297mm; /* Set height to A4 paper height */
+    margin: auto; /* Center content on the page */
+    border: 1px solid #ccc; /* Add a border to all containers */
+    padding: 10px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 210mm,291mm;
+    background-position: center center;
+    background-image: url("675eefcad45938bd96dc9d3fbdf56b25.jpg");
+    
+}
+.Najanu{
+    text-align: center;
+    
+}
+.container {
+    display: flex;
+    
+    justify-content: space-between;
+    border: 1px solid #ccc; /* Add a border to all containers */
+    padding: 10px;
+    padding: 20px;
+}
+#rahul{
+    display:flex;
+  align-items: end;
+    margin-left: 20px;
+}
+#photo {
+    max-width: 100px;
+     
+}
+
+#name {
+    display: flex;
+    align-items: baseline;
+}
+
+#name h1 {
+    margin: 0;
+}
+
+#address {
+    font-style: italic;
+}
+
+#education {
+    width: 100%;
+}
+
+#education table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#education th, #education td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+#achievements {
+    width: 50%;
+}
+
+#achievements ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    padding-left: 0;
+}
+
+#references {
+    text-align: right;
+    width: 50%;
+}
+
+.row-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.footer-container{
+    text-align: center;
+}
